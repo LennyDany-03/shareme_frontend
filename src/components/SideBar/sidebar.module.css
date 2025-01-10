@@ -1,0 +1,29 @@
+
+.Img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.Container{
+    width: 80%;
+    height: 45px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #101720;
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;  
+    font-style: normal;
+    margin: 10px;
+    transition: 0.25s;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Container:hover{
+    background-color: #30425a;
+    cursor: pointer;
+}

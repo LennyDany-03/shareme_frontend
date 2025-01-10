@@ -1,0 +1,189 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../../assets/Black_Theme.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li .Link {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    transition: 0.25s;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+nav ul li .Link:hover{
+    background-color: rgba(255, 255, 255, 0.276);
+    border-radius: 10px;
+
+}
+
+.Logo{
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+.Profile{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;    
+    margin-right: 10px;
+}
+.ProfileCard{
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.LennyImg{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Top p{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+.left_box{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    background-color: #101720b5;
+    color: white;
+    box-shadow: 2px 2px 5px aqua;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.Bottom{
+    margin-top: 25px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition: 0.40s;
+}
+.Bottom a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Icons{
+    width: 30px;
+    height: 30px;
+    color: #83aadd;
+    transition: 0.25s;
+}
+.Icons:hover{
+    color: #223a5a;
+}
+.right_box{
+    height: 500px;
+    display: flex;
+    text-align: center;
+    overflow: auto;
+    background-color: #101720;
+    color: aqua;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px aqua;
+}
+.Text h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Text p{
+    font-size: 22px;
+    padding-bottom: 20px;
+    font-family: "Sniglet", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+@media (max-width: 804px) {
+
+    .Catagorys{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Container{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .Logo{
+        margin-bottom: 20px;
+    }
+    .ProfileCard{
+        margin-top: 20px;
+    }
+    .MainContent{
+        height: 400px;
+    }
+    .BannerImg{
+        height: 350px;
+    }
+
+    .Box{
+        flex-direction: column;
+    }
+    .right_box{
+        height: 100%;
+    }
+}

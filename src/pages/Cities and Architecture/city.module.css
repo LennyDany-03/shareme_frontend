@@ -1,0 +1,124 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../../assets/Black_Theme.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 10px;
+}
+.Container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li .Link {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    transition: 0.25s;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+nav ul li .Link:hover{
+    background-color: rgba(255, 255, 255, 0.276);
+    border-radius: 10px;
+
+
+}
+
+.Logo{
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+.Profile{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;    
+    margin-right: 10px;
+}
+.ProfileCard{
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.MainContent{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+}
+.HeadLine{
+    margin:  30px auto;
+    width: 400px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.352);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.MainContent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+@media (max-width: 804px) {
+
+    .Catagorys{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Container{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .Logo{
+        margin-bottom: 20px;
+    }
+    .ProfileCard{
+        margin-top: 20px;
+    }
+    .MainContent{
+        height: 400px;
+    }
+    .BannerImg{
+        height: 350px;
+    }
+
+
+}

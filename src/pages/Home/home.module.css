@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../../assets/Black_Theme.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li .Link {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    transition: 0.25s;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li .Link:hover{
+    background-color: rgba(255, 255, 255, 0.276);
+    border-radius: 10px;
+    color: white;
+
+}
+
+.Logo{
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+.Profile{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;    
+    margin-right: 10px;
+}
+.ProfileCard{
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.MainContent{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+.Catagorys{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    padding-left: 40px;
+
+}
+.Catagorys .Link{
+    text-decoration: none;
+    width: 220px ;
+    height: 280px;
+    margin-bottom: 20px;
+
+}
+.BannerImg{
+    width: 100%;
+    height: 295px;
+
+}
+.text_overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust alignment */
+    color: white; /* Text color */
+    font-size: 1.5rem; /* Adjust font size */
+    font-family: 'Arial', sans-serif; /* Choose a font */
+    text-align: center;
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #101720;
+}
+@media (max-width: 804px) {
+
+    .Catagorys{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        margin-right: 30px;
+    }
+    .Container{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .Logo{
+        margin-bottom: 20px;
+    }
+    .ProfileCard{
+        margin-top: 20px;
+    }
+    .MainContent{
+        height: 400px;
+    }
+    .BannerImg{
+        height: 350px;
+    }
+
+
+}
