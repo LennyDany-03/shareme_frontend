@@ -92,6 +92,11 @@ nav ul li .Link:hover{
     padding-left: 40px;
 
 }
+.Flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .Catagorys .Link{
     text-decoration: none;
     width: 220px ;

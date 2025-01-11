@@ -48,19 +48,21 @@ function Home(){
                     <h2>According to the Category 😊</h2>
                 </div>
             </div>
-            <div className= {styles.Catagorys}>
-                <Link to= '/nature' className = {styles.Link}><Photo Name = 'Nature' Image = {Nature}/ ></Link>
-                <Link to= '/abstract' className = {styles.Link}><Photo Name = 'Abstract' Image = {Abstract}/></Link>
-                <Link to= '/animals' className = {styles.Link}><Photo Name = 'Animals' Image = {Animal}/></Link>
-                <Link to= '/cities_architecture' className = {styles.Link}><Photo Name = 'Cities' Image = {City}/></Link>
-                <Link to= '/space_universe' className = {styles.Link}><Photo Name = 'Space' Image = {Space}/></Link>
-                <Link to= '/minimalist' className = {styles.Link}><Photo Name = 'Minimalist' Image = {Minimalist}/></Link>
-                <Link to= '/art_illustration' className = {styles.Link}><Photo Name = 'Art' Image = {Art}/></Link>
-                <Link to= '/technology' className = {styles.Link}><Photo Name = 'Technology' Image = {Technology}/></Link>
-                <Link to= '/sports' className = {styles.Link}><Photo Name = 'Sports' Image = {Sports}/></Link>
-                <Link to= '/gaming' className = {styles.Link}><Photo Name = 'Gaming' Image = {Gamer}/></Link>
-                <Link to= '/anime' className = {styles.Link}><Photo Name = 'Anime ' Image = {Anime}/></Link>
-                <Link to= '/quotes_typography' className = {styles.Link}><Photo Name = 'Quotes' Image = {Quotes}/></Link>
+            <div className= {styles.Flex}>
+                <div className= {styles.Catagorys}>
+                    <Link to= '/nature' className = {styles.Link}><Photo Name = 'Nature' Image = {Nature}/ ></Link>
+                    <Link to= '/abstract' className = {styles.Link}><Photo Name = 'Abstract' Image = {Abstract}/></Link>
+                    <Link to= '/animals' className = {styles.Link}><Photo Name = 'Animals' Image = {Animal}/></Link>
+                    <Link to= '/cities_architecture' className = {styles.Link}><Photo Name = 'Cities' Image = {City}/></Link>
+                    <Link to= '/space_universe' className = {styles.Link}><Photo Name = 'Space' Image = {Space}/></Link>
+                    <Link to= '/minimalist' className = {styles.Link}><Photo Name = 'Minimalist' Image = {Minimalist}/></Link>
+                    <Link to= '/art_illustration' className = {styles.Link}><Photo Name = 'Art' Image = {Art}/></Link>
+                    <Link to= '/technology' className = {styles.Link}><Photo Name = 'Technology' Image = {Technology}/></Link>
+                    <Link to= '/sports' className = {styles.Link}><Photo Name = 'Sports' Image = {Sports}/></Link>
+                    <Link to= '/gaming' className = {styles.Link}><Photo Name = 'Gaming' Image = {Gamer}/></Link>
+                    <Link to= '/anime' className = {styles.Link}><Photo Name = 'Anime ' Image = {Anime}/></Link>
+                    <Link to= '/quotes_typography' className = {styles.Link}><Photo Name = 'Quotes' Image = {Quotes}/></Link>
+                </div>
             </div>
         </>
     );
