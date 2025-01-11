@@ -1,7 +1,7 @@
 
 .CardImg{
-    width: 300px;
-    height: 170px;
+    width: 320px;
+    height: 190px;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: 0.25s;
@@ -34,11 +34,10 @@
     overflow: hidden;
 }
 .Title{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border: 2px solid white;
     overflow: hidden;
 }
 @media (max-width: 804px) {
