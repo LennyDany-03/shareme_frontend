@@ -33,10 +33,7 @@
     padding: 20px; /* Optional: Add padding around the grid */
     overflow: hidden;
 }
-.Title{
-    align-items:center;
-    justify-content: end;
-}
+
 @media (max-width: 804px) {
 
     .PhotoGrid{
