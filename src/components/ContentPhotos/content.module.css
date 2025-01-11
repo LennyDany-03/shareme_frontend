@@ -39,6 +39,7 @@
     padding-right: 10px;
     padding-bottom: 5px;
     border: 2px solid white;
+    overflow: hidden;
 }
 @media (max-width: 804px) {
 
