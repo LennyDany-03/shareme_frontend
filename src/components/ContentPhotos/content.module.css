@@ -5,7 +5,6 @@
     border-radius: 10px;
     margin-bottom: 20px;
     transition: 0.25s;
-    overflow: none;
 }
 .Card{
     border-radius: 10px;
@@ -22,7 +21,6 @@
     margin: 20px;
     box-shadow: 2px 2px 5px 2px white;
     transition: 0.25s;
-    overflow:hidden;
 }
 .CardImg:hover{
     width: 400px;
