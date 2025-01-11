@@ -21,6 +21,7 @@
     margin: 20px;
     box-shadow: 2px 2px 5px 2px white;
     transition: 0.25s;
+    overflow:hidden;
 }
 .CardImg:hover{
     width: 400px;
