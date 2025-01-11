@@ -1,7 +1,7 @@
 
 .CardImg{
-    width: 340px;
-    height: 210px;
+    width: 320px;
+    height: 190px;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: 0.25s;
@@ -23,8 +23,8 @@
     transition: 0.25s;
 }
 .CardImg:hover{
-    width: 400px;
-    height: 280px;
+    width: 440px;
+    height: 320px;
 }
 .PhotoGrid {
     display: grid;
