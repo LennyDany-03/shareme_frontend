@@ -33,6 +33,7 @@
     padding: 20px; /* Optional: Add padding around the grid */
 }
 .Title{
+    align-items:center;
     justify-content: end;
     position: absolute;
 }
