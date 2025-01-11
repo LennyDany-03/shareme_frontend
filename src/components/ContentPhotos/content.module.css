@@ -35,7 +35,7 @@
 .Title{
     align-items:center;
     justify-content: end;
-    position:relative;
+    position:static;
 }
 @media (max-width: 804px) {
 
