@@ -33,7 +33,7 @@
     padding: 20px; /* Optional: Add padding around the grid */
     overflow: hidden;
 }
-.Title{
+.Title h3{
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
