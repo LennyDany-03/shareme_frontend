@@ -34,8 +34,7 @@
 }
 .Title{
     justify-content: end;
-    align-items: center;
-    position:absolute;
+    position: absolute;
 }
 @media (max-width: 804px) {
 
