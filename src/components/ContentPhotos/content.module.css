@@ -31,11 +31,11 @@
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 20px; /* Adjust spacing between photos */
     padding: 20px; /* Optional: Add padding around the grid */
+    overflow: hidden;
 }
 .Title{
     align-items:center;
     justify-content: end;
-    overflow: hidden;
 }
 @media (max-width: 804px) {
 
