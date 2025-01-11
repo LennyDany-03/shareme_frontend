@@ -24,7 +24,9 @@ const ContentPhoto = ({ category }) => {
         {photos.map((photo) => (
           <div key={photo.imageUrl} className={styles.Card}>
             <img src={photo.imageUrl} alt={photo.title} className={styles.CardImg} />
-            <h3>{photo.title}</h3>
+            <div className= {styles.Title}>
+              <h3>{photo.title}</h3>
+            </div>
           </div>
         ))}
       </div>
