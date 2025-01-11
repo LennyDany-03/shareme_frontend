@@ -35,7 +35,7 @@
 .Title{
     align-items:center;
     justify-content: end;
-    position :sticky;
+    overflow: hidden;
 }
 @media (max-width: 804px) {
 
