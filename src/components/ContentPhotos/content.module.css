@@ -32,7 +32,9 @@
     gap: 20px; /* Adjust spacing between photos */
     padding: 20px; /* Optional: Add padding around the grid */
 }
-
+.Title{
+    position: fixed;
+}
 @media (max-width: 804px) {
 
     .PhotoGrid{
