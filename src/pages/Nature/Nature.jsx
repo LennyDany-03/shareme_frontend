@@ -25,7 +25,9 @@ const Nature = () => {
                 </nav>
                 <div className= {styles.ProfileCard}>
                         <img src= {Image} alt="Profile Img" className={styles.Profile}/>
-                        <h4>{Name}</h4>
+                        <div className= {styles.Title}>
+                            <h4>{Name}</h4>
+                        </div>
                 </div>
             </div>
             <div className= {styles.HeadLine}>
