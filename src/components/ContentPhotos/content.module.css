@@ -9,7 +9,7 @@
 .Card{
     border-radius: 10px;
     width: 340px;
-    height: 260px;
+    height: 290px;
     border: 2px solid;
     display: flex;
     justify-content: center;
@@ -21,6 +21,12 @@
     margin: 20px;
     box-shadow: 2px 2px 5px 2px white;
     transition: 0.25s;
+}
+.Card:hover{
+    height: 350px;
+}
+.Card:hover .Button{
+    opacity: 1;
 }
 .CardImg:hover{
     width: 400px;
@@ -35,6 +41,21 @@
 }
 .Title h3{
     overflow: hidden;
+}
+.Button{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin-top: 10px;
+    width: 260px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    transition: 0.25s;
+}
+.Button:hover{
+    background-color: rgba(0, 0, 0, 0.098);
 }
 @media (max-width: 804px) {
 
